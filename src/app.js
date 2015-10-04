@@ -111,7 +111,7 @@ var SnakeJSGameLayer = cc.Layer.extend({
             }
         } 
         SnakeArray = [];   
-        var elmsToRemove = SnakeArray.length - length;
+        var elmsToRemove = SnakeArray.length - snakeLength;
         if(elmsToRemove>1)
         {
             SnakeArray.splice(snakeLength-1,elmsToRemove);
